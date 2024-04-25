@@ -1,3 +1,27 @@
-#content > p {
+:root {
+  --max-content-width: 40rem;
+}
+
+#content {
+  max-width: var(--max-content-width);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#content p {
   font-size: 1.3rem;
+}
+
+.subheading {
+  font-size: 1.4rem;
+}
+
+.hour {
+  text-transform: capitalize;
 }
