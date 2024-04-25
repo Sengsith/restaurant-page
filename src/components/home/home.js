@@ -1,6 +1,6 @@
-import "./content.css";
+import "./home.css";
 
-const initializeContent = (() => {
+const initializeHome = () => {
   const hours = {
     sunday: "10am - 5pm",
     monday: "6am - 6pm",
@@ -12,6 +12,7 @@ const initializeContent = (() => {
   };
 
   const component = document.querySelector("#content");
+  component.textContent = "";
 
   const newH1 = document.createElement("h1");
   newH1.textContent = "Trails into the Pantry";
@@ -36,6 +37,6 @@ const initializeContent = (() => {
   component.appendChild(newH1);
   component.appendChild(newP);
   component.appendChild(newHoursContainer);
-})();
+};
 
-export default initializeContent;
+export default initializeHome;
