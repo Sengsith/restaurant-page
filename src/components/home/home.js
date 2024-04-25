@@ -18,6 +18,7 @@ const initializeHome = () => {
   newH1.textContent = "Trails into the Pantry";
 
   const newP = document.createElement("p");
+  newP.classList.add("heading");
   newP.textContent =
     "Down below are various recipes that appear throught 'The Legend of Heroes' series, we're inspired to give you all a fun experience with the taste of Erebonia cuisine!";
 

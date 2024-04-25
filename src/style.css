@@ -62,3 +62,19 @@ header {
   cursor: pointer;
   transform: scale(1.1);
 }
+
+#content {
+  max-width: var(--max-content-width);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+}

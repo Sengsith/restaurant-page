@@ -1,5 +1,6 @@
 import "./style.css";
 import initializeHome from "./components/home/home";
+import initializeMenu from "./components/menu/menu";
 
 const initializeHeader = (() => {
   const headerNav = document.querySelector(".header-nav");
@@ -10,6 +11,9 @@ const initializeHeader = (() => {
     switch (e.target.textContent) {
       case "Home":
         initializeHome();
+        break;
+      case "Menu":
+        initializeMenu();
         break;
     }
   });
