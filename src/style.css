@@ -36,14 +36,13 @@ header {
   width: 100%;
   background-color: hsl(240, 1%, 15%);
   padding: 1rem 5%;
-  margin-bottom: 2rem;
   box-shadow: var(--box-shadow);
 }
 
 .logo {
   width: 12rem;
   height: 2rem;
-  background-image: url(./falcom.png);
+  background-image: url(./assets/falcom.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,6 +68,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-block: 2rem;
 }
 
 .heading {
