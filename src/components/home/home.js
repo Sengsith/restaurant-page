@@ -20,7 +20,7 @@ const initializeHome = () => {
   const newP = document.createElement("p");
   newP.classList.add("heading");
   newP.textContent =
-    "Down below are various recipes that appear throught 'The Legend of Heroes' series, we're inspired to give you all a fun experience with the taste of Erebonia cuisine!";
+    "Explore through our menu for recipes that appear throughout 'The Legend of Heroes' series. We're inspired to give you all a fun experience with the taste of this unique cuisine!";
 
   const newHoursContainer = document.createElement("div");
   const hoursHeading = document.createElement("div");
