@@ -1,7 +1,12 @@
-.sit-down-items-container {
+.sit-down-items-container,
+.drink-items-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.sit-down-items-container {
+  margin-bottom: 2rem;
 }
 
 .menu-item {
