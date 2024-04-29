@@ -1,6 +1,7 @@
 import "./style.css";
 import initializeHome from "./components/home/home";
 import initializeMenu from "./components/menu/menu";
+import initializeAbout from "./components/about/about";
 
 const initializeHeader = (() => {
   const headerNav = document.querySelector(".header-nav");
@@ -14,6 +15,9 @@ const initializeHeader = (() => {
         break;
       case "Menu":
         initializeMenu();
+        break;
+      case "About":
+        initializeAbout();
         break;
     }
   });
